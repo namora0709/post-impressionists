@@ -1,0 +1,235 @@
+.wrapper-gallery
+{
+  margin: 0 20vw;
+}
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h1 gallery-h1 gallery-h1 gallery-h1"
+    "img1 img2 img3 img4"
+    "img5 img6 img3 img7";
+}
+
+#index-gallery .gallery-img {
+   width: 100%;
+   height: 250px;
+   background-repeat: no-repeat;
+   background-color: cover;
+   background-position: center;
+   cursor: pointer;
+}
+/*imahes*/
+#index-gallery p {
+    grid-area: gallery-p;
+}
+#index-gallery h1 {
+    grid-area: gallery-h1;
+}
+#index-gallery .img1{
+    grid-area: img1;
+    background-image: url("Cezanne/thum/img1.jpg");
+}
+#index-gallery .img2{
+    grid-area: img2;
+    background-image: url("Cezanne/thum/img2.jpg");
+}
+#index-gallery .img3{
+    grid-area: img3;
+    background-image: url("Cezanne/thum/img3.jpg");
+    height: 510px;
+}
+#index-gallery .img4{
+    grid-area: img4;
+    background-image: url("Cezanne/thum/img4.jpg");
+}
+#index-gallery .img5{
+    grid-area: img5;
+    background-image: url("Cezanne/thum/img5.jpg");
+}
+#index-gallery .img6{
+    grid-area: img6;
+    background-image: url("Cezanne/thum/img6.jpg");
+}
+#index-gallery .img7{
+    grid-area: img7;
+    background-image: url("Cezanne/thum/img7.jpg");
+}
+/*Gallery images title*/
+.gallery-img div{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.gallery-img div:hover{
+    opacity: 0.6;
+    transition: all ease-in-out 100ms;
+
+}
+/* Pop-up window when clicked*/
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+/*style buttons*/
+.img-btn-next:hover {
+    opacity: 0.8;
+ }
+.img-btn-next {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: #C48F03;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.img-btn-prev:hover {
+   opacity: 0.8;
+}
+.img-btn-prev {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: #C48F03;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+
+}
+
+
+p {font-family:Helvetica;
+    color:#404040;
+    font-size: 18px;
+}
+
+h5{ margin-top: 20px;
+    margin-bottom: 50px;
+    font-style: italic;
+    text-align:center;
+
+}
+footer p {
+  margin-bottom: .25rem;
+  color:white;
+  text-align:center;
+}
+nav {
+    background:#C48F03;
+    width:100%;
+    overflow:auto;
+    }
+ul {marging:0;
+    padding:0;
+    list-style:none;
+    }
+li {float:left;
+    }
+nav a {
+    100 px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    background:#C48F03;
+    font-size:20px;
+    color:white;
+    padding:20px 10px;
+    font-family:Arial;
+}
+nav a:hover {
+    background:#C48F03;
+    color:#25355A;
+}
+.container1{
+    max-width:100%;
+    margin:auto;
+    background:while;
+    overflow:auto;
+}
+.gallery{
+    margin:10px;
+    border:1px solid #ccc;
+    float:left;
+    width:18.52%;}
+
+.gallery img{
+    transition:1s;
+    width:100%;
+    height:280px;
+}
+.gallery img:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1);
+}
+.desc {
+    padding:15px;
+    text-align:center;
+}
+.body_text {font-family:Helvetica;
+    color:#516189;
+    font-size: 18px;
+    text-align:center;
+
+}
+.birth{
+    text-align:center;
+    font-size: 16px;
+    color:#516189;
+}
+.quote {font-family:Helvetica;
+    color:#C48F03;
+    font-size: 14px;
+    text-align:center;
+}
+.container_p{
+    margin-left:20%;
+    margin-right:20%;
+    text-align:justify;
+}
+.p_main{color:#404040;
+        font-size: 16px;
+         margin-top: 30px;
+     margin-bottom: 30px;
+}
+.new_img{
+    width:100%;
+    height=225px;
+}
