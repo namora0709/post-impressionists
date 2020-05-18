@@ -169,10 +169,10 @@ li {float:left;
   text-align:center;
     }
 nav a {
-    100 px;
     display:block;
     text-decoration:none;
     text-align:center;
+    padding:10px 10px;
     background:#353A40;
     font-size:18px;
     color:white;
