@@ -153,7 +153,7 @@ footer p {
   text-align:center;
 }
 nav {
-    background:#C48F03;
+    background:#424949;
     width:100%;
     overflow:auto;
     }
@@ -168,14 +168,14 @@ nav a {
     display:block;
     text-decoration:none;
     text-align:center;
-    background:#C48F03;
+    background:#424949;
     font-size:20px;
     color:white;
     padding:20px 10px;
     font-family:Arial;
 }
 nav a:hover {
-    background:#424949;
+    background:#C48F03;
     color:#25355A;
 }
 .container1{
