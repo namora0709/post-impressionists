@@ -134,7 +134,9 @@
     max-width: 80vw;
 
 }
-
+.link_center {
+    margin-left:35%;
+}
 
 p {font-family:Helvetica;
     color:#404040;
