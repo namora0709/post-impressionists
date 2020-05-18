@@ -164,6 +164,7 @@ nav {
 ul {marging:0;
     padding:0;
     list-style:none;
+    height: 55px;
     }
 li {float:left;
   text-align:center;
